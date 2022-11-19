@@ -1,0 +1,171 @@
+/*Basic Codes*/
+*{
+    box-sizing: border-box;
+}
+html1{
+    line-height: 1.15;
+}
+body{
+    margin:0;
+    font-family:"Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:black;
+    text-align: left;
+    background-color: #ffffff;
+}
+/*==========Profile==============*/
+/*==Outer Margin Styles*===*/
+.container-fluid-home{
+    border: 10px double blueviolet;  
+}
+.container-fluid-skill{
+    border: 10px double blueviolet;
+}
+.container-fluid-about{
+    border: 10px double brown;
+}
+.container-fluid-quality{
+    border: 10px double blue;
+}
+.container-fluid-service{
+    border: 10px double rgb(0, 0, 0);
+}
+.container-fluid-review{
+    border: 10px double darkgreen;
+}
+.container-fluid-contact{
+    border: 10px double rgb(0, 0, 0);
+}
+/*========= Header Section ========== */
+.about-img{
+    margin-left: -100px;
+    right: -70px;
+    
+}
+.btn{
+    padding: 15px 25px;
+    border-radius:100px;
+}
+.btn-white{
+    background-color:rgba(255, 255, 255, 0.799);
+    border:2px double red;
+}
+.btn-white:hover{
+    background-color: #f00000;
+    color:blue;
+}
+.btn-blue{
+    background-color:rgba(255, 255, 255, 0.799);
+    border:2px double red;
+}
+.btn-blue:hover{
+    background-color: #f00000;
+    color:blue;
+}
+.hero-text{
+    margin-top:150px;
+}
+.typed-cursor{
+    font-size:45px;
+    color:black;
+}
+.position-absolute{
+    font-weight: 700;
+}
+/*========Navigation Menu*================*/
+a{
+    color:#ac9efc;
+    text-decoration:none;
+    background-color: rgba(255, 0, 0, 0);
+}
+a:hover{
+    color:rgb(0, 255, 0);
+    text-decoration:none;
+}
+ .navbar-nav .nav-link{
+    padding: 15px 10px;
+    color:#009dff;
+    font-weight: 100;
+    outline: none;
+} 
+ .navbar-nav .nav-link:hover,
+ .navbar-nav .nav-link.active {
+  color:rgb(255, 0, 0);
+}
+@media (max-width: 991.98px) {
+     .navbar-nav .nav-link {
+      padding: 10px 0;
+    }
+  }
+  
+/*=========About Section========*/
+.blue{
+    background-color:rgba(255, 255, 255, 0.799);
+    color:black;
+
+}
+.blue:hover{
+    background-color:rgb(255, 0, 0);
+    color:rgb(0, 140, 255);
+    border-radius: 2px double red;
+
+}
+.display-1 {
+    font-size:100px;
+    font-weight:1000;
+}
+.position-absolute {
+    font-weight: 700;
+}
+/*=======QualificaTION=========*/
+.ex-me{
+    margin-top:30px;
+}
+/*=====Service=====*/
+.service-h4{
+    padding-bottom: 40px;
+}
+
+.service-icon{
+    width:60px;
+    height:60px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 100px;
+}
+.service-box{
+    box-shadow: 0px 1px 7px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-left:10px;
+    padding:20px;
+}
+.service-box:hover{
+    box-shadow: 5px 5px 13px rgba(255, 2, 2, 0.705);
+}
+
+/*=======Contact=====*/
+.contact-us{
+    background-color: #ffffff;
+    padding:60px 50px;
+}
+.contact-us input,.contact-us textarea{
+        border-radius: 0;
+        border:5px double rgb(100, 0, 0);
+}
+/*=======Footer======*/
+.footer {
+    background-color: #444;
+    padding:50px;
+    color:#fff;
+}
+.footer-inner{
+    display: inline;
+}
+.footer a{
+    color: blue;
+    background-color:#444;
+    padding:20px;
+}
